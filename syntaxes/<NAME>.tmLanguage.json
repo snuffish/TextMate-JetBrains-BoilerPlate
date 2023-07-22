@@ -1,0 +1,12 @@
+{
+	"information_for_contributors": [
+		"This is a Boilerplate template to create TextMate Bundles for JetBrains.",
+		"If you want to provide a fix or improvement, please create a pull request at https://github.com/snuffish/TextMate-JetBrains-BoilerPlate",
+		"Once accepted there, we are happy to receive an update request"
+	],
+	"version": "1.0",
+	"name": "<NAME>",
+	"scopeName": "source.<NAME>",
+	"patterns": [],
+	"repository": {}
+}
