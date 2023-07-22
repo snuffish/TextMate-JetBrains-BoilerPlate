@@ -1,0 +1,33 @@
+{
+  "name": "mumps-textmate-jetbrains",
+  "version": "1.0.0",
+  "description": "%description%",
+  "license": "MIT",
+  "contributes": {
+    "languages": [
+      {
+        "id": "mumps",
+        "aliases": [
+          "mumps",
+          "MUMPS"
+        ],
+        "extensions": [
+          ".m",
+          ".mps"
+        ],
+        "mimetypes": [
+          "text/plain"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "mumps",
+        "scopeName": "source.mumps",
+        "path": "./syntaxes/MUMPS.tmLanguage.json"
+      }
+    ]
+  }
+}
+
